@@ -27,6 +27,7 @@
 		047DB2032A1E84E10044B41B /* SportyXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047DB2022A1E84E10044B41B /* SportyXTests.swift */; };
 		047DB20A2A1E8B960044B41B /* FakeNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047DB2092A1E8B960044B41B /* FakeNetwork.swift */; };
 		047DB20C2A1E8CAB0044B41B /* MockingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047DB20B2A1E8CAB0044B41B /* MockingTests.swift */; };
+		047DB20E2A1E95E70044B41B /* CollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047DB20D2A1E95E70044B41B /* CollectionReusableView.swift */; };
 		047F3C432A181F8F00670C67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047F3C422A181F8F00670C67 /* AppDelegate.swift */; };
 		047F3C452A181F8F00670C67 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047F3C442A181F8F00670C67 /* SceneDelegate.swift */; };
 		047F3C472A181F8F00670C67 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047F3C462A181F8F00670C67 /* ViewController.swift */; };
@@ -78,6 +79,7 @@
 		047DB2022A1E84E10044B41B /* SportyXTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportyXTests.swift; sourceTree = "<group>"; };
 		047DB2092A1E8B960044B41B /* FakeNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeNetwork.swift; sourceTree = "<group>"; };
 		047DB20B2A1E8CAB0044B41B /* MockingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockingTests.swift; sourceTree = "<group>"; };
+		047DB20D2A1E95E70044B41B /* CollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionReusableView.swift; sourceTree = "<group>"; };
 		047F3C3F2A181F8F00670C67 /* SportyX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SportyX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		047F3C422A181F8F00670C67 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		047F3C442A181F8F00670C67 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -235,6 +237,7 @@
 				045611CF2A1C99B00068017F /* EventBottomCell.xib */,
 				045611D62A1CADD10068017F /* EventTopCell.swift */,
 				045611D72A1CADD10068017F /* EventTopCell.xib */,
+				047DB20D2A1E95E70044B41B /* CollectionReusableView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -548,6 +551,7 @@
 				042C8D752A1955A100ABD6E8 /* LeagueViewModel.swift in Sources */,
 				048D32F72A1BDAE30055FA14 /* TeamVC.swift in Sources */,
 				045611C82A1C8C2D0068017F /* SportsCell.swift in Sources */,
+				047DB20E2A1E95E70044B41B /* CollectionReusableView.swift in Sources */,
 				047792082A1AE23A00A6017C /* Teams.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
