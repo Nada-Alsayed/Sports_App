@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -31,6 +31,9 @@
 		047792042A1AAA2C00A6017C /* BottomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047792032A1AAA2C00A6017C /* BottomCell.swift */; };
 		047792062A1AB5CC00A6017C /* FixtureViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047792052A1AB5CC00A6017C /* FixtureViewModel.swift */; };
 		047792082A1AE23A00A6017C /* Teams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047792072A1AE23A00A6017C /* Teams.swift */; };
+		047DB2032A1E84E10044B41B /* SportyXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047DB2022A1E84E10044B41B /* SportyXTests.swift */; };
+		047DB20A2A1E8B960044B41B /* FakeNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047DB2092A1E8B960044B41B /* FakeNetwork.swift */; };
+		047DB20C2A1E8CAB0044B41B /* MockingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047DB20B2A1E8CAB0044B41B /* MockingTests.swift */; };
 		047F3C432A181F8F00670C67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047F3C422A181F8F00670C67 /* AppDelegate.swift */; };
 		047F3C452A181F8F00670C67 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047F3C442A181F8F00670C67 /* SceneDelegate.swift */; };
 		047F3C472A181F8F00670C67 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047F3C462A181F8F00670C67 /* ViewController.swift */; };
@@ -48,6 +51,16 @@
 		04DFB5672A1D763700C99A8E /* ball.json in Resources */ = {isa = PBXBuildFile; fileRef = 04DFB5662A1D763700C99A8E /* ball.json */; };
 		5A1FA752FE4DFFA71B029EEA /* Pods_SportyX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0016F4759C09645EE63A313B /* Pods_SportyX.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		047DB2042A1E84E10044B41B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 047F3C372A181F8E00670C67 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 047F3C3E2A181F8F00670C67;
+			remoteInfo = SportyX;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0016F4759C09645EE63A313B /* Pods_SportyX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SportyX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -75,6 +88,10 @@
 		047792032A1AAA2C00A6017C /* BottomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomCell.swift; sourceTree = "<group>"; };
 		047792052A1AB5CC00A6017C /* FixtureViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FixtureViewModel.swift; sourceTree = "<group>"; };
 		047792072A1AE23A00A6017C /* Teams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Teams.swift; sourceTree = "<group>"; };
+		047DB2002A1E84E10044B41B /* SportyXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SportyXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		047DB2022A1E84E10044B41B /* SportyXTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportyXTests.swift; sourceTree = "<group>"; };
+		047DB2092A1E8B960044B41B /* FakeNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeNetwork.swift; sourceTree = "<group>"; };
+		047DB20B2A1E8CAB0044B41B /* MockingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockingTests.swift; sourceTree = "<group>"; };
 		047F3C3F2A181F8F00670C67 /* SportyX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SportyX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		047F3C422A181F8F00670C67 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		047F3C442A181F8F00670C67 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -97,6 +114,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		047DB1FD2A1E84E10044B41B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		047F3C3C2A181F8F00670C67 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -236,10 +260,21 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		047DB2012A1E84E10044B41B /* SportyXTests */ = {
+			isa = PBXGroup;
+			children = (
+				047DB2022A1E84E10044B41B /* SportyXTests.swift */,
+				047DB2092A1E8B960044B41B /* FakeNetwork.swift */,
+				047DB20B2A1E8CAB0044B41B /* MockingTests.swift */,
+			);
+			path = SportyXTests;
+			sourceTree = "<group>";
+		};
 		047F3C362A181F8E00670C67 = {
 			isa = PBXGroup;
 			children = (
 				047F3C412A181F8F00670C67 /* SportyX */,
+				047DB2012A1E84E10044B41B /* SportyXTests */,
 				047F3C402A181F8F00670C67 /* Products */,
 				2C614AEB3C8A6623ADDFF82E /* Pods */,
 				648689F234CFCDEC75CC673F /* Frameworks */,
@@ -250,6 +285,7 @@
 			isa = PBXGroup;
 			children = (
 				047F3C3F2A181F8F00670C67 /* SportyX.app */,
+				047DB2002A1E84E10044B41B /* SportyXTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -339,7 +375,6 @@
 				26E1B6031217563CEBE9A709 /* Pods-SportyX.debug.xcconfig */,
 				B97AA3D5B61D5F26B49E87C8 /* Pods-SportyX.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -354,6 +389,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		047DB1FF2A1E84E10044B41B /* SportyXTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 047DB2082A1E84E10044B41B /* Build configuration list for PBXNativeTarget "SportyXTests" */;
+			buildPhases = (
+				047DB1FC2A1E84E10044B41B /* Sources */,
+				047DB1FD2A1E84E10044B41B /* Frameworks */,
+				047DB1FE2A1E84E10044B41B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				047DB2052A1E84E10044B41B /* PBXTargetDependency */,
+			);
+			name = SportyXTests;
+			productName = SportyXTests;
+			productReference = 047DB2002A1E84E10044B41B /* SportyXTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		047F3C3E2A181F8F00670C67 /* SportyX */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 047F3C562A181F9100670C67 /* Build configuration list for PBXNativeTarget "SportyX" */;
@@ -383,13 +436,17 @@
 				LastSwiftUpdateCheck = 1410;
 				LastUpgradeCheck = 1410;
 				TargetAttributes = {
+					047DB1FF2A1E84E10044B41B = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 047F3C3E2A181F8F00670C67;
+					};
 					047F3C3E2A181F8F00670C67 = {
 						CreatedOnToolsVersion = 14.1;
 					};
 				};
 			};
 			buildConfigurationList = 047F3C3A2A181F8E00670C67 /* Build configuration list for PBXProject "SportyX" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -402,11 +459,19 @@
 			projectRoot = "";
 			targets = (
 				047F3C3E2A181F8F00670C67 /* SportyX */,
+				047DB1FF2A1E84E10044B41B /* SportyXTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		047DB1FE2A1E84E10044B41B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		047F3C3D2A181F8F00670C67 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -467,6 +532,16 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		047DB1FC2A1E84E10044B41B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047DB20C2A1E8CAB0044B41B /* MockingTests.swift in Sources */,
+				047DB2032A1E84E10044B41B /* SportyXTests.swift in Sources */,
+				047DB20A2A1E8B960044B41B /* FakeNetwork.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		047F3C3B2A181F8F00670C67 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -507,6 +582,14 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		047DB2052A1E84E10044B41B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 047F3C3E2A181F8F00670C67 /* SportyX */;
+			targetProxy = 047DB2042A1E84E10044B41B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		047F3C482A181F8F00670C67 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -527,6 +610,48 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		047DB2062A1E84E10044B41B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = iti.SportyXTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SportyX.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SportyX";
+			};
+			name = Debug;
+		};
+		047DB2072A1E84E10044B41B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = iti.SportyXTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SportyX.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SportyX";
+			};
+			name = Release;
+		};
 		047F3C542A181F9100670C67 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -700,6 +825,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		047DB2082A1E84E10044B41B /* Build configuration list for PBXNativeTarget "SportyXTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				047DB2062A1E84E10044B41B /* Debug */,
+				047DB2072A1E84E10044B41B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		047F3C3A2A181F8E00670C67 /* Build configuration list for PBXProject "SportyX" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
