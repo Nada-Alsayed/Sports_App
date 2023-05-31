@@ -1,12 +1,8 @@
-//
-//  SportyXTests.swift
-//  SportyXTests
-//
-//  Created by MAC on 24/05/2023.
-//
+
 
 import XCTest
 @testable import SportyX
+
 final class SportyXTests: XCTestCase {
 
     override func setUpWithError() throws {
@@ -19,7 +15,8 @@ final class SportyXTests: XCTestCase {
     func testLoadLeaguesListFromAPI(){
         let url = Names.getLeaguesUrl(sport: Names.FOOTBALL)
         let expectation = expectation(description: "wait for api")
-        Network.loadData(urls: url) { result in
+        Network.loadData(urls: url)
+        { (result:MyResault?) in
             if let result = result {
                 XCTAssert(result.result.count > 0)
                 print("league Name : \(result.result[0].leagueName ?? "")")
