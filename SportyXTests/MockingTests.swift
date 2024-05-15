@@ -21,7 +21,7 @@ final class MockingTests: XCTestCase {
     func testData(){
         fakeObj.loadData(urls: "") { league in
             if let league = league?.first {
-                print("League Name : \(league["league_name"])")
+                print("League Name : \(String(describing: league["league_name"]))")
                 XCTAssertNotNil(league)
             }
             else{

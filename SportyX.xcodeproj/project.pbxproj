@@ -44,7 +44,6 @@
 		048D33042A1C19B00055FA14 /* FavouriteCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 048D33022A1C19B00055FA14 /* FavouriteCell.xib */; };
 		048D33072A1C1F290055FA14 /* DataBaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048D33062A1C1F290055FA14 /* DataBaseManager.swift */; };
 		048DB15B2A266DF800D058A3 /* testPlayersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048DB15A2A266DF800D058A3 /* testPlayersViewModel.swift */; };
-		04DFB5672A1D763700C99A8E /* ball.json in Resources */ = {isa = PBXBuildFile; fileRef = 04DFB5662A1D763700C99A8E /* ball.json */; };
 		5A1FA752FE4DFFA71B029EEA /* Pods_SportyX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0016F4759C09645EE63A313B /* Pods_SportyX.framework */; };
 /* End PBXBuildFile section */
 
@@ -100,7 +99,6 @@
 		048D33022A1C19B00055FA14 /* FavouriteCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FavouriteCell.xib; sourceTree = "<group>"; };
 		048D33062A1C1F290055FA14 /* DataBaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBaseManager.swift; sourceTree = "<group>"; };
 		048DB15A2A266DF800D058A3 /* testPlayersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testPlayersViewModel.swift; sourceTree = "<group>"; };
-		04DFB5662A1D763700C99A8E /* ball.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = ball.json; path = ../../../../Downloads/ball.json; sourceTree = "<group>"; };
 		26E1B6031217563CEBE9A709 /* Pods-SportyX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SportyX.debug.xcconfig"; path = "Target Support Files/Pods-SportyX/Pods-SportyX.debug.xcconfig"; sourceTree = "<group>"; };
 		B97AA3D5B61D5F26B49E87C8 /* Pods-SportyX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SportyX.release.xcconfig"; path = "Target Support Files/Pods-SportyX/Pods-SportyX.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -280,7 +278,6 @@
 		047F3C412A181F8F00670C67 /* SportyX */ = {
 			isa = PBXGroup;
 			children = (
-				04DFB5662A1D763700C99A8E /* ball.json */,
 				047F3C462A181F8F00670C67 /* ViewController.swift */,
 				047F3C442A181F8F00670C67 /* SceneDelegate.swift */,
 				047F3C422A181F8F00670C67 /* AppDelegate.swift */,
@@ -468,7 +465,6 @@
 				045611C92A1C8C2D0068017F /* SportsCell.xib in Resources */,
 				047F3C4F2A181F9100670C67 /* Assets.xcassets in Resources */,
 				047F3C4A2A181F8F00670C67 /* Main.storyboard in Resources */,
-				04DFB5672A1D763700C99A8E /* ball.json in Resources */,
 				048D33042A1C19B00055FA14 /* FavouriteCell.xib in Resources */,
 				045611D92A1CADD10068017F /* EventTopCell.xib in Resources */,
 				045611D12A1C99B00068017F /* EventBottomCell.xib in Resources */,
